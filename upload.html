@@ -38,7 +38,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Topik</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Teknologi dan komputer</a></li>
+              <li><a class="dropdown-item" href="informasi.html">Teknologi dan komputer</a></li>
               <li><a class="dropdown-item" href="#">Bisnis dan keuangan</a></li>
               <li><a class="dropdown-item" href="#">Seni dan hobi</a></li>
               <li><a class="dropdown-item" href="#">Pendidikan dan pembelajaran</a></li>
@@ -65,8 +65,36 @@
   <div class="album py-5 bg-light">
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Judul</label>
+              <input class="form-control form-control-lg" type="text" aria-label=".form-control-lg example">
+            </div>
+            <div>
+              <label for="exampleSelect" class="form-label">Select menu</label>
+              <select class="form-select" id="exampleSelect">
+                <option selected>Topik</option>
+                <option value="1">Teknologi dan komputer</option>
+                <option value="2">Bisnis dan keuangan</option>
+                <option value="3">Seni dan hobi</option>
+                <option value="4">Pendidikan dan pembelajaran</option>
+                <option value="5">Kesehatan dan kebugaran</option>
+                <option value="6">Kreatif dan desain</option>
+              </select>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                <textarea class="form-control" id="textarea" rows="3"></textarea>
+              </div>
+            <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">File upload</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+              </div>
+              
+              <hr>
 
-        
+              <button class="w-100 btn btn-primary btn-lg" type="submit">Upload</button>
       </div>
     </div>
   </div>
